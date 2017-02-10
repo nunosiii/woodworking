@@ -1,0 +1,185 @@
+/*==========UNIVERSALS==========*/
+@import url('https://fonts.googleapis.com/css?family=Sansita:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.red-background{
+    background-color: #e40007;
+}
+.white-text{
+    color: #fff;
+}
+.inline-block{
+    display: inline-block;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.half{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+button{
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size:18px;
+}
+/*==========HEADER==========*/
+header{
+    padding:25px 20px;
+    height: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+span h4{
+    float:left;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+}
+
+li{
+   margin: 0 15px;
+}
+
+header>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header>ul>li {
+    border-radius: 15px 15px 0px 0px;
+    background-color: black;
+    padding: 20px;
+}
+
+/*=========HERO SECTION==========*/
+#hero{
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/woodworkingwebclass.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid #fff;
+}
+
+#hero>h1{
+    margin: 0;
+    color: #FFDE0A;
+    text-align: center;
+    position: relative;
+    top: 42%;
+}
+
+
+/*==========ASIDE SECTION==========*/
+aside{
+    width: 29.5%;
+    border-right: 2px solid #fff;
+    background-color: #21de6b;
+}
+
+
+aside h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#blog-links{
+    padding-left: 0;
+}
+
+.blog-link{
+    padding: 5px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.blog-link>h5>a {
+    font-size: 18px;
+}
+
+.blog-link:hover{
+    background-color: #FFDE0A;
+}
+
+aside, main{
+    height: 425px;
+}
+
+/*==========MAIN SECTION==========*/
+main {
+    width: 68%;
+    background-color: #0b4724;
+    padding: 0 10px;
+}
+
+main>h2, main>h4{
+    text-align: center;
+}
+
+#main-content-paragraph{
+    display: inline-block;
+    font-family: 'Sansita', sans-serif;
+    font-weight: 700;
+}
+
+#main-wrapper{
+    margin-bottom: 10px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.paragraph-1{
+    float: left;
+    text-align: left;
+}
+
+main p a{
+    color: #DCF9E8;
+    font-size:18px;
+}
+
+/*=============FOOTER SECTION==============*/
+footer{
+    height: 150px;
+    background-color: #000;
+    clear: both;
+    border-top: 4px solid #fff;
+}
+
+#social-media-wrapper{
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+a .fa{
+    color: #0a4d61;
+    padding: 20px;
+}
+
+#copyright{
+    color: #FFDE0A;
+    text-align:right;
+    text-align:center;
+
+/**iframe{
+    height: 600px;
+    width: 600px;
+}**/

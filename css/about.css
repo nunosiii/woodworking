@@ -1,0 +1,32 @@
+/*=====ABOUT HERO SECTION=====*/
+#about-hero{
+    height:450px;
+    background-image: url('../img/woodhero.jpg');
+    background-position: right;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+/*=======COLUMNS SECTION===========*/
+.column{
+    float:left;
+    width: 33%;
+    text-align:center;
+}
+.column h3{
+    text-align:center;
+    font-weight: 600;
+}
+.column p{
+    text-align: justify;
+    padding: 8px;
+}
+#col-1 button{
+    background-color: #be9640;
+}
+#col-2 button{
+    background-color: #F14704;
+}
+#col-3 button{
+    background-color: #404677;
+}

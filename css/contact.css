@@ -1,0 +1,26 @@
+/*=========Section tags============*/
+section{
+    margin-top: 80px;
+    float:left;
+    width: 48%;
+}
+
+/*======CONTACT FORM IFRAME=====*/
+#contact-form-wrapper{
+    background-color: #eee;
+}
+
+
+
+/*=====PHYSICAL ADDRESS SIDE=====*/
+button{
+
+    background-color: pink;
+    color:red;
+
+}
+
+#physical-info-side{
+    text-align: center;
+    padding-top: 200px;
+}
